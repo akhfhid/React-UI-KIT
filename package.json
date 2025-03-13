@@ -3,7 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build"
+        "build": "sh -c 'npx tsc && npx vite build'd"
     },
     "dependencies": {
         "@emotion/react": "^11.10.6",
